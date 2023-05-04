@@ -1,7 +1,7 @@
 programa
 {
 	
-	funcao inicio()	{
+	funcao inicio()	{
 		inteiro candidatoUm = 0 canditatoDois = 0 candidatoTres = 0
 		inteiro votoNulo = 0 votoEmBranco = 0 total = 0 
 		 
@@ -40,6 +40,10 @@ programa
 			caso 0: 
 			escreva(" Encerrar ")
 
+
+//se houve votos calcule a porcentagem de cada candidato
+
+
 			
 			
 		}
@@ -52,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 934; 
+ * @POSICAO-CURSOR = 931; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
