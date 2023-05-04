@@ -9,11 +9,11 @@
 	{
 		
 		funcao inicio()	{
-			inteiro candidatoUm = 0 canditatoDois = 0 candidatoTres = 0
-			inteiro votoNulo = 0 votoEmBranco = 0 total = 0 
+			inteiro numeroCandidato = 0, candidatoUm = 0, canditatoDois = 0, candidatoTres = 0
+			inteiro votoNulo = 0, votoEmBranco = 0, total = 0
 			 
-			real porcentagemUm porcentagemDois porcentagemTres
-			real porcentagemNulo porcentagemBranco porcentagemTotal
+			real porcentagemUm, porcentagemDois, porcentagemTres
+			real porcentagemNulo, porcentagemBranco, porcentagemTotal
 	
 			inteiro voto
 	
@@ -25,15 +25,15 @@
 	
 			escolha(numeroCandidato) {
 				caso 1: 
-				cadidatoUm = candidatoUm++
+				candidatoUm = candidatoUm++
 				escreva(" Candidato 1 recebeu um voto ")
 				pare
 				caso 2: 
-				cadidatoDois = candidatoDois++
+				candidatoDois = candidatoDois++
 				escreva(" Candidato 2 recebeu um voto ")
 				pare
 				caso 3:
-				cadidatoTres = candidatoTres++
+				candidatoTres = candidatoTres++
 				escreva(" Candidato 3 recebeu um voto ")
 				pare
 				caso 6:
@@ -48,9 +48,7 @@
 				escreva(" Encerrar ")
 				
 			}
-		}
-		
-		enquanto (total= 0)
+		}enquanto (total>= 0)
 		
 	
 		
@@ -69,13 +67,13 @@
 	escreva ("Candidato Um: ", candidatoUm, "Votos: ", candidatoUm, "Porcentagem de votos total Candidato: ", porcentagemUm)
 	escreva ("Candidato Dois: ", candidatoDois, "Votos: ", candidatoDois, "Porcentagem de votos total Candidato: ", porcentagemDois) 
 	escreva ("Candidato Três: ", candidatoTres, "Votos: ", candidatoTres, "Porcentagem de votos total Candidato: ", porcentagemTres)
-			
+		}}	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1257; 
+ * @POSICAO-CURSOR = 712; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
