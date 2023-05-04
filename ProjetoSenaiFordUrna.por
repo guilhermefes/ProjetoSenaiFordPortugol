@@ -39,24 +39,34 @@ programa
 			pare
 			caso 0: 
 			escreva(" Encerrar ")
-
-
-//se houve votos calcule a porcentagem de cada candidato
-
-
-			
 			
 		}
 	}
 	enquanto(numeroCandidato) > 0
 
 	total = candidatoUm + canditatoDois + candidatoTres + votoNulo + votoEmBranco
+
+	//se houve votos calcule a porcentagem de cada candidato
+
+porcentagemNulo = (porcentagemNulo * 100.0) total
+porcentagemBranco = (porcentagemBranco * 100.0) total
+porcentagemUm = (porcentagemUm * 100.0) / total
+porcentagemDois = (porcentagemDois * 100.0) / total
+porcentagemTres = (porcentagemTres * 100.0) / total
+
+escreva ("/n")
+
+escreva ("Total de votos: ". total, "/n/n")
+escreva ("Candidato Um: ", total, "porcentagemUm" 
+escreva ("Candidato Dois: ", total, "porcentagemDois"
+escreva ("Candidato Três: ", total, "porcentagemTres"  
+			
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 931; 
+ * @POSICAO-CURSOR = 1053; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
